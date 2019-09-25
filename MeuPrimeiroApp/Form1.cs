@@ -31,18 +31,22 @@ namespace MeuPrimeiroApp
         {
             string retorno = Carro.Desligar();
             MessageBox.Show(retorno);
+
+            //Mensagem Retorno - Desligar
         }
 
         private void Btn_Detalhes_Click(object sender, EventArgs e)
         {
             string retorno = Carro.Detalhes();
             MessageBox.Show(retorno);
+
+            //Mensagem Retorno - Detalhes
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             var valor1 = 10;
-            var valor2 = 0;
+            var valor2 = 2;
 
             var resultado = (valor1 / valor2);
 
